@@ -1,0 +1,29 @@
+.App {
+  justify-content: center;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.App-button {
+  width: 150px;
+  height: 45px;
+  font-size: 30px;
+  border-radius: 15px;
+  background-color: yellow;
+  color: black;
+  border: 2px solid black;
+  box-shadow: 0px 8px 15px rgba(138, 136, 136, 0.247);
+  transition: all 0.3s ease 0s;
+  font-weight: bold;
+}
+
+.App-button:hover {
+  background-color: rgb(184, 184, 3);
+  transition: all ease 500ms;
+  transform: scale(1.1);
+}
+
+.App-title {
+  font-size: 75px;
+  margin-top: 10%;
+}
